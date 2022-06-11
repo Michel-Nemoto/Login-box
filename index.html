@@ -15,16 +15,34 @@
         <div class="loginBox">
 
             <form>
-                <span>Sing In</span>
-
-                <div class="caixa-input">
-                    <input type="text" name="emailphone" class="email-phone" placeholder="email or phone number">
-                    <input type="password" name="pass" id="">
+                <div class="top-form">
+                    <span>Sing In</span>
+                    <div class="caixa-input">
+                        <input type="text" name="emailphone" class="email-phone" placeholder="email or phone number">
+                        <input type="password" name="pass" id="">
+                    </div>
+                    <button class="submit">Sing In</button>
                 </div>
-                <button class="submit">Sing In</button>
                 <div class="checkbox">
-                    <input type="checkbox" class="check">Remenber me
-                    <span class="help">Need Help</span>
+                    <label for="check">
+                        <input type="checkbox" id="check" class="check"> Remenber me
+                    </label>
+                    <a href="#" class="help">Need Help?</a>
+                </div>
+                <div class="down-form">
+                    <div class="icons">
+                        <ion-icon name="logo-facebook"></ion-icon>
+                        <ion-icon name="logo-google"></ion-icon>
+                        <ion-icon name="logo-whatsapp"></ion-icon>
+                    </div>
+                    <span class="asking">
+                        New to Netflix?
+                        <a href="#">Sing up now.</a>
+                    </span>
+                    <p class="text">
+                        This page is protected by Google reCAPTCHA to ensure you're not a bot.
+                        <a href="#">Learn more</a>
+                    </p>
                 </div>
 
             </form>
@@ -33,6 +51,7 @@
 
     </section>
     
-    
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
