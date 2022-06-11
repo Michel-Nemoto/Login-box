@@ -1,0 +1,35 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.conteiner {
+    max-width: 1360px;
+    min-width: 270px;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../imagens/netflix.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.logo img {
+    width: 150px;
+}
+
+
+
+.loginBox {
+    border: 2px solid white;
+    width: 300px;
+    height: 500px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5))
+}
