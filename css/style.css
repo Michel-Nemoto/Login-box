@@ -56,6 +56,18 @@
     border-radius: 3px;
     color: white;
 }
+.loginBox .caixa-input .email-phone.error {
+    border-bottom: 2px solid orange;
+}
+.loginBox .caixa-input #password.error {
+    border-bottom: 2px solid orange;
+}
+.loginBox .caixa-input .erro {
+    font-size: 0.8em;
+    color: orange;
+    font-weight: normal;
+}
+
 .loginBox .top-form button {
     width: 100%;
     padding: 8px;

@@ -14,12 +14,14 @@
         </div>
         <div class="loginBox">
 
-            <form>
+            <form id="inputForm" action="resposta.html">
                 <div class="top-form">
                     <span>Sing In</span>
                     <div class="caixa-input">
                         <input type="text" name="emailphone" class="email-phone" placeholder="email or phone number">
-                        <input type="password" name="pass" id="">
+                        <span class="erro"></span>
+                        <input type="password" name="pass" id="password">
+                        <span class="erro"></span>
                     </div>
                     <button class="submit">Sing In</button>
                 </div>
@@ -52,6 +54,9 @@
     </section>
     
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js">
+        //PROJETO 3
+    </script>
+    <script src="script.js"></script>
 </body>
 </html>
