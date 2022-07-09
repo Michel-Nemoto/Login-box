@@ -3,7 +3,7 @@ const form = document.getElementById('inputForm')
 form.addEventListener('submit', (e) => {
     e.preventDefault()
     
-    let inputOne = document.forms['inputForm']['emailphone']
+    let inputOne = document.forms['inputForm']['emailphone']//ID and name
 
     let temErro = false
 
